@@ -10,7 +10,7 @@ class Quiz extends Component {
     }
     render() {
         return (
-            <QuizQuestion value={quizData}/>
+            <QuizQuestion value={quizData.quiz_question[quiz_position - 1]}/>
         )
     }
 }
