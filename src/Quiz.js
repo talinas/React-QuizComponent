@@ -9,7 +9,7 @@ class Quiz extends Component {
     }
     render() {
         return (
-            <QuizQuestion />
+            <QuizQuestion value={quizData}/>
         )
     }
 }
